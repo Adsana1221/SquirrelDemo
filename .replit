@@ -1,3 +1,3 @@
 language = "java10"
-# run = "javac -cp bin -d bin -sourcepath src src/oop/oop.lessonPractice/Squirrel.java; javac -cp bin -d bin # src/oop/oop.lessonPractice/Squirrel.java; java -cp bin oop.lessonPractice.Squirrel"
-run =  "javac -d bin src/oop/oop.lessonPractice/*.java; java -cp bin oop.lessonPractice.Squirrel"
+# run = "javac -cp bin -d bin -sourcepath src src/oop/squirrel/Squirrel.java; javac -cp bin -d bin # src/oop/squirrel/Squirrel.java; java -cp bin squirrel.Squirrel"
+run =  "javac -d bin src/oop/squirrel/*.java; java -cp bin squirrel.Squirrel"

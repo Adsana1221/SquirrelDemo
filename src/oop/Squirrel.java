@@ -1,4 +1,4 @@
-package oop.lessonPractice;
+package squirrel;
 
 
 public class Squirrel{
@@ -8,19 +8,19 @@ public class Squirrel{
  String colour;
  int age;
  int weight; 
- String foodstorage;
+ String strName;
 
-public Squirrel(String newColour, int newAge, int newWeight, String newFoodstorage){
+public Squirrel(String newColour, int newAge, int newWeight, String newName){
 
   this.colour = newColour;
   this.age = newAge;
   this.weight = newWeight;
-  this.foodstorage = newFoodstorage; 
+  this.name = newName; 
 
 }
 
-public void jump(String strJump){
-    System.out.println("Jumping; " + strJump);
+public void jump(int intHeight){
+    System.out.println(this.name "jumps" + strJump);
   }
 
 
