@@ -8,7 +8,7 @@ public class Squirrel{
  String colour;
  int age;
  int weight; 
- String strName;
+ String Name;
 
 public Squirrel(String newColour, int newAge, int newWeight, String newName){
 
@@ -20,16 +20,18 @@ public Squirrel(String newColour, int newAge, int newWeight, String newName){
 }
 
 public void jump(int intHeight){
-    System.out.println(this.name "jumps" + strJump);
+    System.out.println(this.name + "jumps" + intHeight + "meters)";
   }
 
 
-public void buryFood(String strburyFood){
-    System.out.println("Burying Food;" + strburyFood)
-  }
+public void identifiesPredators(String strIdentifiesPredators){
+  System.out.println(this.name + "identifies a predator"+ strIdentifiesPredators);
+  
+}
+  
 
 public void makeNoise(String strmakeNoise){
-    System.out.println("Making Noise;" + strmakeNoise);
+    System.out.println(this.name + "is making noises;" + strmakeNoise);
   
 }
 
